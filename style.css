@@ -1,0 +1,36 @@
+body {
+  background: #000;
+  overflow:hidden;
+}
+
+.centerMe { position: absolute; top: 30%;left: 50%; 
+  transform: translate(-50%, -50%);}
+h1{ font-family: 'Anton', sans-serif; 
+	font-size: 54px; font-style: normal;
+  letter-spacing: 5px; font-variant: normal;
+	font-weight: bold; justify-content: center;
+	line-height: 26.4px; margin-top: 40px;
+  color:#FF9001; position: relative;
+  height: 100%; display: flex; align-items: flex-end; }
+
+span{ font-size: 70px; line-height: 60px; display: block; position: absolute; 
+  bottom: -100px;}
+
+.yoga { position: absolute; top: 34%;
+  left: 50%; transform: translate(-50%, -50%);
+  background: url(https://s-media-cache-ak0.pinimg.com/564x/c0/81/fb/c081fbbf72cc63ba3366d3f1c0ca1b19.jpg)
+   50% 50% no-repeat; background-size: contain; width: 70vw; max-width: 900px;
+  height: 50vw; max-height: 425px; animation: 4s floating infinite ease-in-out;
+}
+
+@-webkit-keyframes floating {
+  0% { transform: translate(-50%, -50%); }
+  65% { transform: translate(-50%, -54%); }
+  100% { transform: translate(-50%, -50%); }
+}
+
+@keyframes floating {
+  0% { transform: translate(-50%, -50%); }
+  65% { transform: translate(-50%, -54%); }
+  100% { transform: translate(-50%, -50%); }
+}
